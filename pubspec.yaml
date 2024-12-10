@@ -1,0 +1,24 @@
+name: core
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  loading_indicator:
+    path: ../loading_indicator
+  network:
+    path: ../network
+  helpers:
+    path: ../helpers
+
+  equatable: ^2.0.5
+  bloc: ^8.1.2
+  intl: ^0.18.1
+  dio: ^5.4.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
